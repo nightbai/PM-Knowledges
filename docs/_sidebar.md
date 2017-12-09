@@ -13,5 +13,5 @@
 - 创业心得
 
 - 关于
- - [关于 AR Design Club](/about)
+ - [关于](/about)
  - [感谢](/thx)
