@@ -1,13 +1,12 @@
-![logo](_media/icon.svg)
+![logo](https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1512824183901&di=37ca817c12003eb4ac1f5e67cbda035c&imgtype=0&src=http%3A%2F%2F5b0988e595225.cdn.sohucs.com%2Fimages%2F20170710%2F08cadcc433f54a79b8984fe7b9b4c190.gif)
 
-# docsify <small>1.3.3</small>
+# 产品经理的进阶之路 <small>2017-12-09</small>
 
-> A magical documentation site generator.
+> 产品，是能够满足人类求知欲及好奇心的
 
-- Simple and lightweight (~12kb gzipped)
-- Multiple themes
-- Not build static html files
+- 经验积累
+- 知识整理
+- 成就他人
 
 
-[GitHub](https://github.com/QingWei-Li/docsify/)
-[Get Started](#quick-start)
+[打开新世界大门](#PM-Knowledges)
