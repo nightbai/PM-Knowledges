@@ -236,4 +236,4 @@
 
 简书，想去乌镇的阿夫，[高效需求特训营-画布篇](http://www.jianshu.com/p/d489a70ee4e8)
 
-思特沃克，亢江妹，[资深BA进阶工具包：构建“Big Picture”的四幅图板 | TW洞见]（http://mp.weixin.qq.com/s/-MXdQvq4zQkeHFAsApv7IQ）
+思特沃克，亢江妹，[资深BA进阶工具包：构建“Big Picture”的四幅图板 | TW洞见](http://mp.weixin.qq.com/s/-MXdQvq4zQkeHFAsApv7IQ)
