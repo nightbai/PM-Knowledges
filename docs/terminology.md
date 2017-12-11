@@ -131,8 +131,9 @@ Session是用于保持状态的基于Web服务器的方法。Session允许通过
  
  架构最开始起源于建筑行业，英文是`Architecture`,在维基百科上，架构是这样定义的：
  
- ```bash
- Architecture (Latin architectura, from the Greek ἀρχιτέκτων arkhitekton"architect", from ἀρχι- "chief" and τέκτων "builder") is both the process and the product of planning, designing, and constructing buildings and other physical structures。
+ ```js
+ Architecture (Latin architectura, from the Greek ἀρχιτέκτων arkhitekton"architect", from ἀρχι- "chief" and τέκτων "builder") is both
+ the process and the product of planning, designing, and constructing buildings and other physical structures。
  ```
  
  简单的总结整理一下，架构的定义可以按照下面的方式进行：
