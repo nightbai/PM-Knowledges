@@ -5,6 +5,7 @@
 ## 企业画布
 
 ![image](http://upload-images.jianshu.io/upload_images/5433360-99697ad308c828b2.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/700)
+
 在这一产品画布中，有6个关键区域，提出了关于企业（产品的拥有者）的关键问题：
 
  * `客户是谁？`
