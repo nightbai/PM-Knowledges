@@ -17,7 +17,7 @@
   - [常见的金融名词](/Fterminology.md)
 
 - 自己的一些心得
-  - [如何实现高效沟通？](/PMExperience.md)
+  - [产品与其他关系人的沟通](/PMExperience.md)
 
 - 一点想法
   - [为什么要做这个](/about)
