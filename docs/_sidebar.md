@@ -14,7 +14,8 @@
 - 后续的运营那些事儿
 
 - 核心的专业那些事儿
-  - [常见的金融名词](/Fterminology.md)
+  - [债券](/Fterminology.md)
+  - [支付](/payment.md)
 
 - 自己的一些心得
   - [产品与其他关系人的沟通](/PMExperience.md)
