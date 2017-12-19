@@ -185,3 +185,27 @@ Session是用于保持状态的基于Web服务器的方法。Session允许通过
  * `参考内容`
  
  详细内容除百度百科等基本知识介绍之外，还可参照[对软件架构设计的一些总结和理解](http://blog.csdn.net/cooldragon/article/details/48241965)一文，除此之外，如果自身所在公司有比较牛的架构师，可以直接去请教，并且在项目中通过实际接触，对架构的作用产生更直接的印象，毕竟，一家公司的架构师均是一些技术水平较高、经验较为丰富的人，他们需要承担软件系统的架构设计，也就是需要设计系统的元件如何划分、元件之间如何发生相互作用，以及系统中逻辑的、物理的、系统的重要决定的做出。
+
+## WebSocket
+
+WebSocket protocol 是HTML5一种新的协议。它实现了浏览器与服务器全双工通信(full-duplex)。在JavaEE7中也实现了WebSocket协议。
+
+`过去实现即时通讯（real-time）——轮询（polling）`
+
+现很多网站为了实现即时通讯(real-time)，所用的技术都是轮询(polling)。
+
+轮询是在特定的的时间间隔(time interval)（如每1秒），由浏览器对服务器发出HTTP request，然后由服务器返回最新的数据给客服端的浏览器。
+
+这种传统的HTTP request 的模式带来很明显的缺点————浏览器需要不断的向服务器发出请求(request)，然而HTTP request 的header是非常长的，里面包含的数据可能只是一个很小的值，这样会占用很多的带宽。
+
+最比较新的技术去做轮询的效果是Comet – 用了AJAX。但这种技术虽然可达到全双工通信，但依然需要发出请求(reuqest)。
+
+`现在实现即时通讯（real-time）——WebSocket`
+
+在 WebSocket API，浏览器和服务器只需要要做一个握手的动作(在实现websocket连线过程中，需要通过浏览器发出websocket连线请求，然后服务器发出回应，这个过程通常称为“握手” (handshaking))，然后，浏览器和服务器之间就形成了一条快速通道。两者之间就直接可以数据互相传送。在此WebSocket 协议中，为我们实现即时服务带来了两大好处：
+
+1. Header:互相沟通的Header是很小的-大概只有 2 Bytes
+
+2. Server Push:服务器可以主动传送数据给客户端
+
+[关于WebSocket的原理，可以参考这篇博客](http://blog.csdn.net/frank_good/article/details/50856585),这篇博客的语言通俗易懂，有趣而不生硬。
