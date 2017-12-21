@@ -14,7 +14,8 @@
 - 后续的运营那些事儿
 
 - 核心的专业那些事儿
-  - [债券](/Fterminology.md)
+  - [业务名词](/fnoun.md)
+  - [债券](/Fterminology.md)
   - [支付](/payment.md)
 
 - 自己的一些心得
