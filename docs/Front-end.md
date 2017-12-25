@@ -110,7 +110,7 @@ AngularJS有着诸多特性，最为核心的是：MVC、模块化、自动化�
 
 `内容`
 
-AngularJS是一个JavaScript框架。它是一个以JavaScript编写的库。它可通过<script>标签添加到HTML页面。
+AngularJS是一个JavaScript框架。它是一个以JavaScript编写的库，它可通过<script>标签添加到HTML页面。
 
 AngularJS通过指令扩展了HTML，且通过表达式绑定数据到HTML。
 
