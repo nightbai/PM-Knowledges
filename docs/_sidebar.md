@@ -19,6 +19,7 @@
   - [债券](/Fterminology.md)
   - [支付](/payment.md)
   - [投资中业绩归因分析](/brinson.md)
+  - [基金净值的计算](/jjjz.md)
 
 - 自己的一些心得
   - [产品与其他关系人的沟通](/PMExperience.md)
