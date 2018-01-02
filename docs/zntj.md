@@ -202,6 +202,28 @@
 
 以上文章来源为[关于智能推荐的6个小经验，你值得拥有！](https://www.jianshu.com/p/a03abb36e09c)
 
+## 推荐算法
+
+给予内存的协同过滤算法（Collaborative Filtering简称 CF）
+
+- 基于user的协同过滤（user-based CF): 通过不同用户对item的评分来评测用户之间的相似性，基于用户之间的相似性做出推荐；基于用户的(User-based)协同过滤算法是根据邻居用户的偏好信息产生对目标用户的推荐。
+
+- 基于item的协同过滤(item-based CF): 通过用户对不同item的评分来评测item之间的相似性，基于item之间的相似性做出推荐；基于项目的(Item-based)协同过滤是根据用户对相似项目的评分数据预测目标项目的评分，它是建立在如下假设基础上的，Item-based算法认为：一个人会喜欢“和他以前喜欢的东西”相似的东西.Item-based协同过滤算法主要对目标用户所评价的一组项目进行研究，并计算这些项目与目标项目之间的相似性，然后从选择前K个最相似度最大的项目输出，这是区别于User-based协同过滤。
+
+相似性计算法则：
+
+- 皮尔森相关（PearsonCorrelationSimilarity）
+
+- 余弦相似性（Cosine Similarity）
+
+- 修正的余弦相似性（Adjusted Cosine Similarity）
+
 ## 其他参考文章
 
 [基于群体相似性的智能推荐模型](https://wenku.baidu.com/view/d5f94a0380eb6294dc886cbe.html)
+
+[个性化智能推荐(协同过滤算法)技术研究](http://blog.csdn.net/zolalad/article/details/51104745)
+
+[基于Spark机器学习和实时流计算的智能推荐系统](http://blog.csdn.net/qq1010885678/article/details/46675501)
+
+[MenuRecommend智能推荐算法](http://blog.csdn.net/qq_30690633/article/details/53419849)
