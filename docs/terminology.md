@@ -357,3 +357,40 @@ MVC 分层同时也简化了分组开发。不同的开发人员可同时开发�
 [从MVC到前后端分离（REST-个人也认为是目前比较流行和比较好的方式）](http://blog.csdn.net/shaobingj126/article/details/49420145)
 
 [前后端分离了，然后呢？](https://kb.cnblogs.com/page/524041/)
+
+## Docker
+
+Docker 是一个开源的应用容器引擎，让开发者可以打包他们的应用以及依赖包到一个可移植的容器中，然后发布到任何流行的Linux机器上，也可以实现虚拟化，容器是完全使用沙箱机制，相互之间不会有任何接口。一个完整的Docker有以下几个部分组成：
+
+dockerClient客户端
+
+Docker Daemon守护进程
+
+Docker Image镜像
+
+DockerContainer容器
+
+Docker核心解决的问题是利用LXC来实现类似VM的功能，从而利用更加节省的硬件资源提供给用户更多的计算资源。同VM的方式不同, LXC 其并不是一套硬件虚拟化方法 - 无法归属到全虚拟化、部分虚拟化和半虚拟化中的任意一个，而是一个操作系统级虚拟化方法, 理解起来可能并不像VM那样直观。所以我们从虚拟化到docker要解决的问题出发，看看他是怎么满足用户虚拟化需求的。
+
+`缺陷`
+
+Docker并不是全能的，设计之初也不是KVM之类虚拟化手段的替代品，简单总结几点：
+
+- Docker是基于Linux 64bit的，无法在32bit的linux/Windows/unix环境下使用
+
+- LXC是基于cgroup等linux kernel功能的，因此container的guest系统只能是linux base的
+
+- 隔离性相比KVM之类的虚拟化方案还是有些欠缺，所有container公用一部分的运行库
+
+- 网络管理相对简单，主要是基于namespace隔离
+
+- cgroup的cpu和cpuset提供的cpu功能相比KVM的等虚拟化方案相比难以度量(所以dotcloud主要是按内存收费)
+
+- Docker对disk的管理比较有限
+
+- container随着用户进程的停止而销毁，container中的log等用户数据不便收集
+
+`参考`
+
+[Docker-百度百科](https://baike.baidu.com/item/Docker/13344470?fr=aladdin)
+
