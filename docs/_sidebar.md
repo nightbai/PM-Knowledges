@@ -1,4 +1,4 @@
-- 写在前面的话（/__coverpage.md）
+- 写在前面的话（/_coverpage.md）
  
 - 本职的产品那些事儿
   - [产品那些画布](/picture.md)
