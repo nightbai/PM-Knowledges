@@ -98,7 +98,7 @@ VaJoy / 蓝邦珏， [ReactJS入门（一）—— 初步认识React](https://ww
 
 雲霏霏,[一看就懂的ReactJs入门教程-精华版](https://www.cnblogs.com/yunfeifei/p/4486125.html)
 
-## Angularjs
+## Angular.js
 
 `背景`
 
